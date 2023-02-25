@@ -1,0 +1,75 @@
+.app {
+
+background: lightblue;
+  height: 1000px;
+  .appHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .dndGroup {
+      min-width: 100px;
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      padding: 1%;
+
+      align-items: center;
+      .title{
+      background: darkseagreen;
+        width: 80%;
+        padding: 10%;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+        font-size: x-large;
+        font-weight: bold;
+        font-style: italic;
+color: darkslategrey;
+        font-family: "Bookman Old Style";
+      }
+      .dndItems {
+
+        width: 80%;
+        padding: 10%;
+        background: khaki;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+        .dndItem {
+          padding: 10%;
+          cursor: pointer;
+
+          border-radius: 10px;
+          margin: 20px;
+          font-style: italic;
+          color: darkslategrey;
+          font-family: "Bookman Old Style";
+        }
+
+        .currentDndItem {
+          padding: 10%;
+          cursor: pointer;
+          border-radius: 10px;
+          margin: 20px;
+          background: khaki;
+          color: khaki;
+
+        }
+
+
+      }
+    }
+  }
+}
+.group0{
+  background: darkgray;
+}
+.group1{
+  background: cadetblue;
+}
+.group2{
+  background: cornflowerblue;
+}
+.group3{
+  background: darksalmon ;
+}
