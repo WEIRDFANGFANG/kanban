@@ -43,6 +43,13 @@
   font-style: italic;
   color: darkslategrey;
   font-family: "Bookman Old Style";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app .appHeader .dndGroup .dndItems .dndItem div:hover {
+  color: brown;
+  cursor: pointer;
 }
 .app .appHeader .dndGroup .dndItems .currentDndItem {
   padding: 10%;
@@ -51,6 +58,44 @@
   margin: 20px;
   background: khaki;
   color: khaki;
+}
+.app .addTask {
+  text-align: center;
+}
+.app .addTask input {
+  width: 200px;
+  margin: 50px;
+  border-radius: 10px;
+  height: 50px;
+  border-color: cornflowerblue;
+  border-width: 5px;
+  background: lightblue;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: darkslategrey;
+  font-family: "Bookman Old Style";
+  padding: 10px;
+}
+.app .addTask input:focus {
+  background: lightblue;
+  border-color: darkseagreen;
+  border-width: 5px;
+  outline: none;
+}
+.app .addTask button {
+  width: 200px;
+  height: 100px;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: darkslategrey;
+  font-family: "Bookman Old Style";
+  border-radius: 10px;
+  height: 50px;
+  border-color: goldenrod;
+  border-width: 5px;
+  background: lightblue;
 }
 
 .group0 {

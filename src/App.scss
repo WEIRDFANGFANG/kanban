@@ -1,5 +1,4 @@
 .app {
-
 background: lightblue;
   height: 1000px;
   .appHeader {
@@ -44,6 +43,16 @@ color: darkslategrey;
           font-style: italic;
           color: darkslategrey;
           font-family: "Bookman Old Style";
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          div{
+
+            &:hover{
+              color: brown;
+              cursor: pointer;
+            }
+          }
         }
 
         .currentDndItem {
@@ -58,6 +67,47 @@ color: darkslategrey;
 
 
       }
+    }
+  }
+  .addTask{
+    text-align: center;
+    input{
+      width: 200px;
+      margin: 50px;
+      border-radius: 10px;
+      height: 50px;
+      border-color: cornflowerblue;
+      border-width: 5px;
+      background: lightblue;
+    font-size: large;
+      font-weight: bold;
+      font-style: italic;
+      color: darkslategrey;
+      font-family: "Bookman Old Style";
+      padding: 10px;
+      &:focus{
+        background: lightblue;
+        border-color: darkseagreen;
+        border-width: 5px;
+        outline:none;
+
+      }
+    }
+    button{
+      width: 200px;
+      height: 100px;
+      font-size: large;
+      font-weight: bold;
+      font-style: italic;
+      color: darkslategrey;
+      font-family: "Bookman Old Style";
+
+      border-radius: 10px;
+      height: 50px;
+      border-color: goldenrod;
+      border-width: 5px;
+      background: lightblue;
+
     }
   }
 }
